@@ -53,18 +53,37 @@ Fancy a challenge? Test your luck and your logic with our number guessing game! 
 - The player needs to guess the number within a limited number of attempts.
 - After each guess, the program provides feedback on whether the guess is too high, too low, or correct.
 
-### Snake Water Gun Game (Method 1 & Method 2) 🐍💧🔫
+### Snake Water Gun Game (Method 1) 🐍💧🔫
 
 Get ready for some friendly competition! It's time to play Snake 🐍, Water 💧, Gun 🔫! Choose your weapon wisely and face off against the computer. Will you emerge victorious, or will you meet your match? Let the games begin!
 
 #### Setup
 
-1. Navigate to the `snake_water_gun_game_method1` directory (for Method 1) or `snake_water_gun_game_method2` directory (for Method 2).
+1. Navigate to the `snake_water_gun_game_method1` directory.
 2. Run the `snake_water_gun_game.py` script to start the game.
 
 #### Rules
 
-- The rules of the game remain the same for both Method 1 and Method 2.
+- The player chooses between Snake, Water, or Gun.
+- The computer randomly selects one of the options.
+- The winner is determined based on the following rules:
+  - Snake drinks Water, so Snake wins.
+  - Gun shoots Snake, so Gun wins.
+  - Water floats on Gun, so Gun wins.
+  - In case of a tie, the game is a draw.
+
+### Snake Water Gun Game (Method 2) 🐍💧🔫
+
+Get ready for another round of friendly competition! It's time to play Snake 🐍, Water 💧, Gun 🔫! This time, with a twist! Choose your weapon wisely and face off against the computer. Will you emerge victorious, or will you meet your match? Let the games begin!
+
+#### Setup
+
+1. Navigate to the `snake_water_gun_game_method2` directory.
+2. Run the `snake_water_gun_game.py` script to start the game.
+
+#### Rules
+
+- The rules of the game remain the same as described in Method 1.
 
 ## How to Contribute
 
