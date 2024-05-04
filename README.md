@@ -85,6 +85,23 @@ Get ready for another round of friendly competition! It's time to play Snake �
 
 - The rules of the game remain the same as described in Method 1.
 
+### The Minion Game 🍌
+
+Join Stuart and Kevin in a battle of words! In "The Minion Game," players compete to form words from a given string of letters. Will you help Stuart (who can only make words starting with consonants) or Kevin (who can only make words starting with vowels) win the game? It's time to show off your vocabulary skills and claim victory in this fun-filled challenge!
+
+#### Setup
+
+1. Navigate to the `minion_game` directory.
+2. Run the `minion_game.py` script to start the game.
+
+#### Rules
+
+- Players take turns forming words from a given string of letters.
+- Stuart can only make words starting with consonants (non-vowels).
+- Kevin can only make words starting with vowels (a, e, i, o, u).
+- Each player scores points equal to the number of words they can form that start with their designated letter type.
+- The player with the most points at the end wins the game.
+
 ## How to Contribute
 
 👩‍💻 Ready to join the fun? 👨‍💻
